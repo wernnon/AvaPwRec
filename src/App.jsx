@@ -2,26 +2,24 @@
 import './App.css'
 import List from './List.jsx'
 
+
 function App(){
 
 return(
  //bloco   
-    <div>
+    <div className='head'>
 
-            <p className='text'>
-                Mais lidas
-            </p>  
-            <List />
-
-        <div className='text'>
-       
-            Mais lidas
-        
+        <img src="logo.svg"/>  
+        <List />
+        <div className='botoes'>
+            <button className='create'>
+                criar conta 
+            </button>
+            <button className='in'>
+                entrar
+            </button>
         </div>
         
-        <List/>  
-
-
     </div>
 )
 }
